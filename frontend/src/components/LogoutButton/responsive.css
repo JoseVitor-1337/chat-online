@@ -1,0 +1,5 @@
+@media (max-width: 991px) {
+  div.chat-container header div.log-out {
+    width: 15%;
+  }
+}

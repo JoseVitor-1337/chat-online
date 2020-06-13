@@ -1,0 +1,15 @@
+@media (max-width: 769px) {
+  div.chat-container {
+    min-width: 100%;
+  }
+
+  div.chat-container header {
+    padding: 10px;
+  }
+
+  div.chat-container div.chat-content {
+    width: 95%;
+    min-height: 350px;
+    border: none;
+  }
+}

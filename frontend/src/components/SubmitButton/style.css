@@ -1,0 +1,23 @@
+button.submit {
+  min-width: 250px;
+  min-height: 50px;
+  background-color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+button.submit:hover {
+  background-color: var(--secondary-color);
+  border: 2px solid var(--primary-text-color);
+  color: var(--primary-color);
+}
+
+@media (max-width: 600px) {
+  button {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

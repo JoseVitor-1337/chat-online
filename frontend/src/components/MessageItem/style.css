@@ -1,0 +1,12 @@
+div.message-box {
+  position: relative;
+  width: 40%;
+  background-color: var(--primary-color);
+  padding: 5px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+.its-me {
+  margin-left: auto;
+}

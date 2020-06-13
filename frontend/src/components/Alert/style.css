@@ -1,0 +1,80 @@
+.alert-box {
+  display: grid;
+  overflow-x: hidden;
+  position: absolute;
+  min-width: 220px;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 15px;
+  z-index: 1;
+}
+
+.success {
+  background-color: var(--primary-color);
+}
+
+.danger {
+  background-color: var(--primary-color);
+}
+
+.alert-box p {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-text-color);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.show {
+  animation: showAlertBox 1s ease forwards;
+}
+
+.show::before {
+  content: "";
+  position: absolute;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background-color: #ddd;
+  animation: alertLoadingBar 3s linear;
+}
+
+.hide {
+  animation: hideAlertBox 1s ease forwards;
+}
+
+@keyframes alertLoadingBar {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes hideAlertBox {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(40px);
+  }
+  100% {
+    transform: translateX(-500px);
+  }
+}
+
+@keyframes showAlertBox {
+  0% {
+    transform: translateX(-500px);
+  }
+  50% {
+    transform: translateX(40px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

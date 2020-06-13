@@ -1,0 +1,50 @@
+div.chat-input-group {
+  width: 100%;
+  border: 10px solid var(--primary-color);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.chat-input-group input {
+  background-color: rgba(255, 255, 255, 1);
+  height: 45px;
+  position: relative;
+  padding: 0 10px;
+  width: 92%;
+  color: rgba(0, 0, 0, 1);
+  transition: 0.5s;
+  font-weight: normal;
+}
+
+div.chat-input-group input::placeholder {
+  color: var(--third-text-color);
+  font-weight: 700;
+  opacity: 0.5;
+}
+
+div.chat-input-group div.arrow-box {
+  background-color: var(--primary-color);
+  cursor: pointer;
+  position: relative;
+  height: 45px;
+  width: 8%;
+  transition: all 0.5s;
+  color: var(--primary-text-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.chat-input-group div.arrow-box:hover {
+  background-color: var(--primary-text-color);
+  color: var(--primary-color);
+}
+
+@media (max-width: 600px) {
+  div.chat-input-group div.arrow-box {
+    width: 20%;
+  }
+}

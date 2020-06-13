@@ -1,0 +1,11 @@
+@media (max-width: 769px) {
+  div.form {
+    min-width: 100%;
+  }
+
+  div.form div.content {
+    min-width: 100%;
+    padding: 20px;
+    border-radius: 0;
+  }
+}

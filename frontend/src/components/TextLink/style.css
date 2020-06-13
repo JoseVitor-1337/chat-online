@@ -1,0 +1,27 @@
+.link {
+  text-decoration: none;
+}
+
+.link p {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  height: 0;
+  opacity: 0.5;
+  text-align: right;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.link p:hover {
+  color: var(--primary-text-color);
+  opacity: 1;
+}
+
+@media (max-width: 991px) {
+  .link p {
+    margin: 10px;
+    text-align: right;
+  }
+}

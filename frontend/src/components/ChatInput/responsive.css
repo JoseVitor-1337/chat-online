@@ -1,0 +1,5 @@
+@media (max-width: 600px) {
+  div.chat-input-group div.arrow-box {
+    width: 20%;
+  }
+}

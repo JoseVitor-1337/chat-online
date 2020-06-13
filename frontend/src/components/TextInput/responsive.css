@@ -1,0 +1,5 @@
+@media (max-width: 600px) {
+  div.text-input-group {
+    margin-bottom: 30px;
+  }
+}
