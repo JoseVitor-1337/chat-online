@@ -1,34 +1,35 @@
 import React, { memo } from "react";
+
 import "./style.css";
-import "./responsive.css";
 
 const TextInput = (props) => {
   const input = {
     name: {
-      placeholder: "Name",
+      label: "Name",
       type: "text",
     },
     email: {
-      placeholder: "Email Address",
+      label: "Email Address",
       type: "text",
     },
     password: {
-      placeholder: "Password",
+      label: "Password",
       type: "password",
     },
   };
 
-  const { placeholder, type } = input[props.property];
+  const { label, type } = input[props.property];
 
   return (
     <div className="text-input-group">
+      <label htmlFor={label}>{label}</label>
       <input
         type={type}
+        id={label}
         value={props.value}
-        onChange={(event) =>  props.setValue(event.target.value)}
+        onChange={(event) => props.setValue(event.target.value)}
         required
       />
-      <span>{placeholder}</span>
     </div>
   );
 };

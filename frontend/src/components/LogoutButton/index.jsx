@@ -5,7 +5,6 @@ import { FiLogOut } from "react-icons/fi";
 import RegisterContext from "../../context/Register/RegisterContext";
 
 import "./style.css";
-import "./responsive.css";
 
 export default function LogoutButton({ userName }) {
   const { logout } = useContext(RegisterContext);

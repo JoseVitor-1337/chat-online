@@ -23,7 +23,7 @@ describe("Router: User", () => {
 
   it("POST - Create new use account", async () => {
     const response = await request(app).post("/user").send({
-      name: "Jose Vitor",
+      name: "Jose",
       email: "Jose@gmail.com",
       password: "123456",
     });
@@ -35,7 +35,7 @@ describe("Router: User", () => {
     const user = await userFactory({});
 
     const response = await request(app).post("/user").send({
-      name: "Vitor Jose",
+      name: "Vitor",
       email: user.email,
       password: "123456",
     });

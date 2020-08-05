@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from "react";
 import { useHistory } from "react-router-dom";
 import "./style.css";
 import "./responsive.css";
-  
+
 import AlertContext from "../../context/Alert/AlertContext";
 import RegisterContext from "../../context/Register/RegisterContext";
 
@@ -26,11 +26,8 @@ const LoginForm = () => {
     }
   }, [warnings, setAlert]);
 
-  console.log("redirect")
-
   useEffect(() => {
     if (Object.keys(user).length !== 0) {
-      console.log("Alo")
       history.push("/chat");
     }
   }, [user, history]);

@@ -4,7 +4,7 @@ import RegisterReducer from "./RegisterReducer";
 
 import socketio from "socket.io-client";
 
-import AccountService from "../../services/Account";
+import AuthenticationService from "../../services/Authentication";
 
 const RegisterState = (props) => {
   const initialState = {
@@ -35,7 +35,7 @@ const RegisterState = (props) => {
 
   const createAccount = async (userData) => {
     try {
-      await AccountService({
+      await AuthenticationService({
         method: "POST",
         url: "/user",
         data: userData,
@@ -57,11 +57,14 @@ const RegisterState = (props) => {
 
   const login = async (credentials) => {
     try {
-      const result = await AccountService.post("/authentication", credentials);
+      const result = await AuthenticationService.post(
+        "/authentication",
+        credentials
+      );
 
       const token = result.data.token;
 
-      const response = await AccountService.get("/user", {
+      const response = await AuthenticationService.get("/user", {
         headers: {
           token,
         },
@@ -105,7 +108,7 @@ const RegisterState = (props) => {
   const handleReloadPage = useCallback(async () => {
     const token = localStorage.getItem("token");
 
-    const response = await AccountService.get("/user", {
+    const response = await AuthenticationService.get("/user", {
       headers: {
         token,
       },

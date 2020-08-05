@@ -2,7 +2,6 @@ import React, { useEffect, useContext } from "react";
 import AlertContext from "../../context/Alert/AlertContext";
 
 import "./style.css";
-import "./responsive.css";
 
 export default function Alert() {
   const { alerts } = useContext(AlertContext);

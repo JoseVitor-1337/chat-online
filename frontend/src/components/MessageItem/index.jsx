@@ -4,7 +4,6 @@ import Title from "../Title";
 import Text from "../Text";
 
 import "./style.css";
-import "./responsive.css";
 
 function MessageItem({ title, userName, text }) {
   function seeItsMe() {

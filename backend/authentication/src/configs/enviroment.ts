@@ -1,7 +1,11 @@
-const enviroment = {
-  port: 3333,
-  database_url: "mongodb+srv://1337:1337@mycluster-jf4qr.mongodb.net/chatonline-ts?retryWrites=true&w=majority",
+import dotenv from "dotenv";
 
-}
+dotenv.config();
+
+const enviroment = {
+  port: process.env.API_PORT || 5050,
+  database_url: process.env.MONGO_URL || "",
+  jwtSecret: process.env.JWT_SECRET || "secret",
+};
 
 export default enviroment;

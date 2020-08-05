@@ -1,5 +1,5 @@
 import { Socket } from "socket.io";
-import createChatServer from "../redis/createChatServer";
+import createChatServer from "../domain/createChatServer";
 
 const client = createChatServer("PublicChat");
 

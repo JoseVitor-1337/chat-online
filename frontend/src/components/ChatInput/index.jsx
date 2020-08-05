@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FiArrowRight } from "react-icons/fi";
 
 import "./style.css";
-import "./responsive.css";
 
 export default function ChatInput({ setAlert, socket, user, loadNewMessage }) {
   const [text, setText] = useState("");

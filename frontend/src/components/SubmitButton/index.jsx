@@ -1,7 +1,6 @@
 import React, { memo } from "react";
 
 import "./style.css";
-import "./responsive.css";
 
 const SubmitButton = (props) => {
   return (

@@ -1,7 +1,6 @@
 import User from "../src/model/User";
 import bcrypt from "bcryptjs";
 import faker from "faker";
-import factory from "factory-girl";
 
 interface User {
   name?: string;
