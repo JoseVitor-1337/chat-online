@@ -1,15 +1,12 @@
 # Chat Online
 
----
-
 ## Talk with your frinds in a online chat
+
+---
 
 ## Web
 
 <img src="https://github.com/JoseVitor-1337/chat-online/blob/master/web-interface.svg" width="1280" height="720">
-
-
----
 
 ## Mobile
 
