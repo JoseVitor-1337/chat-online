@@ -13,7 +13,7 @@
 
 ## Mobile
 
-<img src="https://github.com/JoseVitor-1337/chat-online/blob/master/mobile-interface.svg" width="415" height="915">
+<img src="https://github.com/JoseVitor-1337/chat-online/blob/master/mobile-interface.svg" width="415" height="715">
 
 ---
 
