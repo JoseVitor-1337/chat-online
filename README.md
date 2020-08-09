@@ -6,6 +6,7 @@
 
 ## Web
 
+<img src="https://github.com/JoseVitor-1337/chat-online/blob/master/web-interface.png" width="200">
 ![Web interface]( https://github.com/JoseVitor-1337/chat-online/blob/master/web-interface.png =250px)
 
 ---
