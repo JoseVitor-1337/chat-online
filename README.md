@@ -6,7 +6,7 @@
 
 ## Web
 
-<img src="https://github.com/JoseVitor-1337/chat-online/blob/master/web-interface.png" width="1280" height="720">
+<img src="https://github.com/JoseVitor-1337/chat-online/blob/master/web-interface.svg" width="1280" height="720">
 
 
 ---
