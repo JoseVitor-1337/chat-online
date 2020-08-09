@@ -4,7 +4,7 @@
 
 ---
 
-## Wen and Mobile interfaces
+## Web and Mobile interfaces
 
 <img src="https://github.com/JoseVitor-1337/chat-online/blob/master/Interfaces.svg" width="1280" height="720">
 
