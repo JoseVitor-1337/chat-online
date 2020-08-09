@@ -6,14 +6,14 @@
 
 ## Web
 
-<img src="https://github.com/JoseVitor-1337/chat-online/blob/master/web-interface.png" width="400" height="400">
+<img src="https://github.com/JoseVitor-1337/chat-online/blob/master/web-interface.png" width="1280" height="720">
 
 
 ---
 
 ## Mobile
 
-<img src="https://github.com/JoseVitor-1337/chat-online/blob/master/mobile-interface.png" width="400" height="400">
+<img src="https://github.com/JoseVitor-1337/chat-online/blob/master/mobile-interface.png" width="415" height="915">
 
 ---
 
