@@ -4,15 +4,15 @@
 
 ## Talk with your frinds in a online chat
 
-## Mobile
+## Web
 
-![Web interface]( https://github.com/JoseVitor-1337/chat-online/blob/master/web-interface.png)
+![Web interface]( https://github.com/JoseVitor-1337/chat-online/blob/master/web-interface.png =250px)
 
 ---
 
 ## Mobile
 
-![Mobile interface]( https://github.com/JoseVitor-1337/chat-online/blob/master/mobile-interface.png)
+![Mobile interface]( https://github.com/JoseVitor-1337/chat-online/blob/master/mobile-interface.png =250px)
 
 ---
 
