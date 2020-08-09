@@ -19,14 +19,14 @@
 
 ## Features and concepts used
 
-<span style="font-size:1.1em">Web</span>.
+<span style="font-size:2.1em">Web</span>.
 
 - React.js
 - React Hooks
 - React Context
 - Web Socket
 
-<span style="font-size:1.1em">Back End (Micro-Services)</span>.
+<span style="font-size:2.1em">Back End</span>.
 
 - Node.js
 - Api Rest
@@ -34,9 +34,7 @@
 - TDD
 - MongoDB (mongoose)
 
-<span style="font-size:1.1em">mobile</span>.
-
-= Expo
+<span style="font-size:2.1em">mobile</span>.
 
 - React Native
 - React Hooks
