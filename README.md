@@ -6,7 +6,7 @@
 
 ## Wen and Mobile interfaces
 
-<img src="https://github.com/JoseVitor-1337/chat-online/blob/master/interfaces.svg" width="1280" height="720">
+<img src="https://github.com/JoseVitor-1337/chat-online/blob/master/Interfaces.svg" width="1280" height="720">
 
 ---
 
