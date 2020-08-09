@@ -34,7 +34,7 @@
 - TDD
 - MongoDB (mongoose)
 
-<span style="font-size:2.1em">mobile</span>.
+<span style="font-size:2.1em">Mobile</span>.
 
 - React Native
 - React Hooks
