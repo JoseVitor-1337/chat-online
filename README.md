@@ -2,14 +2,6 @@
 
 ## Talk with your frinds in a online chat
 
----
-
-## Web and Mobile interfaces
-
-<img src="https://github.com/JoseVitor-1337/chat-online/blob/master/Interfaces.svg" width="1280" height="720">
-
----
-
 ## Features and concepts used
 
 <span style="font-size:2.1em">Web</span>.
